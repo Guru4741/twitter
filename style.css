@@ -251,4 +251,13 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 12px;
+}
+
+.twitter-tweets__interaction {
+    color: #aabbc2;
+}
+
+.twitter-tweets__interaction i + i {
+    padding-left: 55px;
 }
