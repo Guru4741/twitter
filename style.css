@@ -233,7 +233,8 @@
 }
 
 .twitter-tweets__date {
-
+    flex: auto;
+    text-align: right;
 }
 
 .twitter-tweets__tweet-text {
