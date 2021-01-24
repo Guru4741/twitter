@@ -22,7 +22,7 @@
 
 .twitter__img {
     border-radius: 3px;
-    width: 60px;
+    width: 60%;
     margin-top: 50px;
 }
 
@@ -180,4 +180,84 @@
 .twitter__link-btn {
     border-radius: 0;  
     padding: 5px 25px;  
+}
+
+.twitter-tweets {
+    display: flex;
+    padding: 13px;
+}
+
+.twitter-tweets__sidebar {
+    flex: 20%;
+    margin-right: 13px;
+    text-align: center;
+}
+
+.twitter-tweets__retweet {
+    color: #828282;
+    font-size: 13px;
+    text-align: right;
+    margin-bottom: 8px;
+}
+
+.twitter-tweets__img {
+    margin-top: 0;
+    width: 50%;
+    min-width: 50px;
+    /* height: 50px; */
+    object-fit: cover;
+}
+
+.twitter-tweets__main {
+    flex: 80%;
+}
+
+.twitter-tweets__profileId {
+    color: #828282;
+    font-size: 12px;
+    line-height: (16/12);
+    margin-bottom: 8px;
+}
+
+.twitter-tweets__tweet-info {
+    display: flex;
+    font-size: 14px;
+    line-height: (17/14);
+    font-weight: 500;
+    color: #828282;
+    margin-bottom: 8px;
+}
+
+.twitter-tweets__name {
+    color: #333333;
+    margin-right: 8px;
+}
+
+.twitter-tweets__date {
+    flex: auto;
+    text-align: right;
+}
+
+.twitter-tweets__tweet-text {
+    color: #333333;
+    font-size: 14px;
+    line-height: (17/14);
+    margin-bottom: 13px;
+}
+
+.twitter-tweets__image {
+    border-radius: 3px;
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.twitter-tweets__interaction {
+    color: #aabbc2;
+}
+
+.twitter-tweets__interaction i + i {
+    padding-left: 55px;
 }
