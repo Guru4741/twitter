@@ -181,3 +181,72 @@
     border-radius: 0;  
     padding: 5px 25px;  
 }
+
+.twitter-tweets {
+    display: flex;
+    padding: 13px;
+}
+
+.twitter-tweets__sidebar {
+    flex: 20%;
+    margin-right: 13px;
+    text-align: center;
+}
+
+.twitter-tweets__retweet {
+    color: #828282;
+    font-size: 13px;
+    text-align: right;
+    margin-bottom: 8px;
+}
+
+.twitter-tweets__img {
+    margin-top: 0;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.twitter-tweets__main {
+    flex: 80%;
+}
+
+.twitter-tweets__profileId {
+    color: #828282;
+    font-size: 12px;
+    line-height: (16/12);
+    margin-bottom: 8px;
+}
+
+.twitter-tweets__tweet-info {
+    display: flex;
+    font-size: 14px;
+    line-height: (17/14);
+    font-weight: 500;
+    color: #828282;
+    margin-bottom: 8px;
+}
+
+.twitter-tweets__name {
+    color: #333333;
+    margin-right: 8px;
+}
+
+.twitter-tweets__date {
+
+}
+
+.twitter-tweets__tweet-text {
+    color: #333333;
+    font-size: 14px;
+    line-height: (17/14);
+    margin-bottom: 13px;
+}
+
+.twitter-tweets__image {
+    border-radius: 3px;
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
