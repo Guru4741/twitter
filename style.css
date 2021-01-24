@@ -22,7 +22,7 @@
 
 .twitter__img {
     border-radius: 3px;
-    width: 60px;
+    width: 60%;
     margin-top: 50px;
 }
 
@@ -202,8 +202,9 @@
 
 .twitter-tweets__img {
     margin-top: 0;
-    width: 50px;
-    height: 50px;
+    width: 50%;
+    min-width: 50px;
+    /* height: 50px; */
     object-fit: cover;
 }
 
