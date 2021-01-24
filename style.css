@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.twitter {
+    display: flex;
+    height: 100vh;
+}
+
+.twitter__sidebar {
+    background-color: #24476f;
+    border-radius: 5px;
+    flex: 25%;
+    text-align: center;
+}
+
+.twitter__img {
+    border-radius: 3px;
+    width: 60px;
+    margin-top: 50px;
+}
+
+.twitter__nav {
+    margin-top: 36px;
+}
+
+.twitter__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6892af;
+}
+
+.twitter__list-item {
+    margin-bottom: 24px;
+}
+
+.twitter__list-item:hover {
+    color: #2aa2ef;
+}
+
+.twitter__list-item i {
+    font-size: 22px;
+}
+
+.twitter__profile-section {
+    flex: 75%;
+}
