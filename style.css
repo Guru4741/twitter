@@ -186,6 +186,7 @@
 .twitter-tweets {
     display: flex;
     padding: 13px;
+    border-bottom: 1px solid #d2dce1;
 }
 
 .twitter-tweets__sidebar {
@@ -232,6 +233,7 @@
 .twitter-tweets__name {
     color: #333333;
     margin-right: 8px;
+    flex: 60%;
 }
 
 .twitter-tweets__date {
