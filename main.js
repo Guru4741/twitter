@@ -8,7 +8,7 @@ const module = (function(){
         })
         .then(data => {              
     
-            data.forEach(each => {
+            data.forEach((each,index) => {
                 const tweetDetails = {
                     tweet: each.Tweet,
                     date: each.Date,
@@ -16,10 +16,29 @@ const module = (function(){
                     handle: each.Handle,
                     image: `http://localhost:1337${each.Image[0].url}`,
                     user: `http://localhost:1337${each.User[0].url}`
-                }            
+                }    
+                
+                // const tweetSectionHTML = `
+                //     <section class="twitter-tweets" id="tweet-${index}">
+                //     <div class="twitter-tweets__sidebar loading">                    
+                //     </div>
+                //     <div class="twitter-tweets__main">
+                //         <p class="twitter-tweets__profileId loading">                        
+                //         </p>
+                //         <div class="twitter-tweets__tweet-info loading">                        
+                //         </div>
+                //         <p class="twitter-tweets__tweet-text loading">                        
+                //         </p>
+                //         <img class="twitter-tweets__image loading">
+                //         <div class="twitter-tweets__interaction loading">                        
+                //         </div>
+                //     </div>
+                // </section>
+                // `
+                // mainContainer.innerHTML += tweetSectionHTML;
                 
                 const tweetHTML = `
-                    <section class="twitter-tweets">
+                    <section class="twitter-tweets" id="tweet-${index}">
                     <div class="twitter-tweets__sidebar">
                         <p class="twitter-tweets__retweet">
                             <i class="fas fa-retweet"></i>
