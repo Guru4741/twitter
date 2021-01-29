@@ -1,8 +1,11 @@
 const module = (function(){
 
     let mainContainer = document.getElementsByClassName('twitter__profile-section')[0];
+
+        const BASE_URL_DEV = 'http://localhost:1337/posts/';
+        const BASE_URL_PROD = 'https://strapi-twitter-profile.herokuapp.com/posts/';
     
-        fetch('http://localhost:1337/posts/')
+        fetch(BASE_URL_DEV)
         .then((response) => {
             return response.json()
         })
@@ -14,8 +17,8 @@ const module = (function(){
                     date: each.Date,
                     userName: each.UserName,
                     handle: each.Handle,
-                    image: `http://localhost:1337${each.Image[0].url}`,
-                    user: `http://localhost:1337${each.User[0].url}`
+                    image: each.Image[0].url,
+                    user: each.User[0].url
                 }            
                 
                 const tweetHTML = `

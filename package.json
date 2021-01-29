@@ -1,0 +1,23 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Basic Twitter Profile Interface",
+  "main": "main.js",
+  "dependencies": {
+    "strapi-provider-upload-cloudinary": "^3.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guru4741/twitter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guru4741/twitter/issues"
+  },
+  "homepage": "https://github.com/Guru4741/twitter#readme"
+}
