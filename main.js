@@ -5,7 +5,7 @@ const module = (function(){
         const BASE_URL_DEV = 'http://localhost:1337/posts/';
         const BASE_URL_PROD = 'https://strapi-twitter-profile.herokuapp.com/posts/';
     
-        fetch(BASE_URL_DEV)
+        fetch(BASE_URL_PROD)
         .then((response) => {
             return response.json()
         })
